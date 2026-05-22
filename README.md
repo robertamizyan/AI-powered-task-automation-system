@@ -64,6 +64,23 @@ The React frontend displays:
 - Task deletion
 
 ---
+# Screenshots
+
+## Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## Telegram Bot
+
+![Telegram Bot](screenshots/telegrambot.png)
+
+---
+
+## Worker Processing
+
+![Worker](screenshots/worker-processing.png)
 
 # Architecture
 
