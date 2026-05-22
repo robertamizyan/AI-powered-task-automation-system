@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111827;
+  color: #f9fafb;
+}
+
+.app {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.connection {
+  color: #22c55e;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.header h1 {
+  margin-bottom: 8px;
+  font-size: 42px;
+}
+
+.header p {
+  color: #9ca3af;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.stat-card {
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 14px;
+  padding: 18px;
+  text-align: center;
+}
+
+.stat-card h3 {
+  color: #9ca3af;
+  margin: 0;
+}
+
+.stat-card p {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0 0;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  gap: 12px;
+}
+
+.toolbar button,
+.toolbar select {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.toolbar select {
+  background: #1f2937;
+  border: 1px solid #374151;
+}
+
+.task-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 18px;
+}
+
+.task-card {
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 14px;
+  padding: 18px;
+}
+
+.task-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-id {
+  color: #9ca3af;
+  font-size: 14px;
+}
+
+.status {
+  padding: 5px 9px;
+  border-radius: 999px;
+  font-size: 13px;
+  background: #374151;
+}
+
+.status.pending {
+  background: #92400e;
+}
+
+.status.in_progress {
+  background: #1d4ed8;
+}
+
+.status.completed {
+  background: #166534;
+}
+
+.task-card h2 {
+  font-size: 20px;
+  margin: 14px 0 8px;
+}
+
+.task-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: #9ca3af;
+  font-size: 14px;
+  margin-top: 14px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.actions button {
+  border: none;
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.delete {
+  background: #dc2626;
+  color: white;
+}
